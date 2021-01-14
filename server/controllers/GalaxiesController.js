@@ -8,4 +8,8 @@ export class GalaxiesController extends BaseController {
         .get("", this.getAll)
 
     }
+
+    getAll(req,res,next){
+      
+    }
 }
